@@ -1,0 +1,38 @@
+
+
+ul{
+    list-style: none;
+    padding:0;
+    width: 400px;
+}
+.accordion_toggle{
+
+    background: lightcoral;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#accordion li h4{
+    margin:0;
+    border: 1px solid white;
+}
+
+.text{
+    height: 0px;
+    overflow: auto;
+    transition: height 2s;
+}
+
+
+
+.show{
+
+height: 95px;
+
+}
+
+p{
+   margin: 0;
+}
